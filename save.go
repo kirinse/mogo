@@ -2,10 +2,9 @@ package mogo
 
 import (
 	"errors"
-	"time"
-
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
+	"time"
 )
 
 // PreSave ...

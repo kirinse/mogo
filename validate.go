@@ -1,9 +1,8 @@
 package mogo
 
 import (
-	"reflect"
-
 	"github.com/globalsign/mgo/bson"
+	"reflect"
 )
 
 // ValidateRequired ...

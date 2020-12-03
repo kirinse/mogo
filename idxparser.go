@@ -1,12 +1,11 @@
 package mogo
 
 import (
+	"github.com/globalsign/mgo"
 	"go/scanner"
 	"go/token"
 	"reflect"
 	"strings"
-
-	"github.com/globalsign/mgo"
 )
 
 var optionKeywords = [...]string{"unique", "sparse", "background", "dropdups"}

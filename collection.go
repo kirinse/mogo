@@ -1,11 +1,10 @@
 package mogo
 
 import (
-	"strings"
-	"time"
-
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
+	"strings"
+	"time"
 )
 
 // ChangeInfoWithError is a return value for most of mgo methods

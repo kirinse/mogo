@@ -2,12 +2,9 @@ package mogo
 
 import (
 	"fmt"
-
-	// "github.com/go-mogo/mgo/bson"
+	dotaccess "github.com/go-bongo/go-dotaccess"
 	"reflect"
 	"strings"
-
-	dotaccess "github.com/go-bongo/go-dotaccess"
 )
 
 // DiffTracker ...

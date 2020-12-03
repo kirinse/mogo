@@ -2,11 +2,10 @@ package mogo
 
 import (
 	"fmt"
-	"math"
-	"reflect"
-
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
+	"math"
+	"reflect"
 )
 
 // Query is the mgo.Query wrapper

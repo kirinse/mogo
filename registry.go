@@ -3,11 +3,10 @@ package mogo
 import (
 	"errors"
 	"fmt"
+	"github.com/globalsign/mgo"
 	"log"
 	"reflect"
 	"sync"
-
-	"github.com/globalsign/mgo"
 )
 
 // Config ...
